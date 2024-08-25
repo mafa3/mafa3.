@@ -1,0 +1,64 @@
+body {
+    color:rgb(245, 243, 243);
+    background: rgb(110, 23, 136);
+    margin: 0px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(184, 182, 182);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(240, 139, 7);
+    font-family: monospace;
+ }
+
+.chamada {
+    background: rgb(255, 147, 6);
+    padding-bottom: 80px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: "Nothing You Could Do", cursive;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Indie Flower", cursive;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid orangered;
+}
+
+.categoria h2 {
+    color: rgb(218, 216, 213);
+}
